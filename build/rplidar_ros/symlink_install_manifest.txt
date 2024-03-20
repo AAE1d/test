@@ -1,0 +1,10 @@
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+/home/eid/ws_gazebo/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py

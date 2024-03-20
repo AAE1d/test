@@ -1,0 +1,116 @@
+[0.150s] Invoking command in '/home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:/home/eid/ws_gazebo/install/serial:/home/eid/ws_gazebo/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/install/nixbot:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/ws_gazebo/install/gazebo_test:/home/eid/ws_gazebo/install/diffdrive_arduino:/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/src/install/serial:/home/eid/ws_gazebo/src/install/rplidar_ros:/home/eid/ws_gazebo/src/install/nixbot:/home/eid/ws_gazebo/src/install/my_first_pkg:/home/eid/ws_gazebo/src/install/diffdrive_arduino:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/src/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/eid/ws_gazebo/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos
+[0.237s] -- The C compiler identification is GNU 11.4.0
+[0.418s] -- The CXX compiler identification is GNU 11.4.0
+[0.425s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.508s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.509s] -- Detecting C compile features
+[0.509s] -- Detecting C compile features - done
+[0.579s] -- Detecting CXX compiler ABI info
+[0.689s] -- Detecting CXX compiler ABI info - done
+[0.697s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.697s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.702s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.931s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.991s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.037s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.088s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.096s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.106s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.123s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.690s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.762s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.767s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.900s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.935s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.020s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.020s] -- Looking for pthread.h
+[2.116s] -- Looking for pthread.h - found
+[2.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.230s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.231s] -- Found Threads: TRUE  
+[2.365s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.405s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.408s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.503s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.505s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.505s] -- Configured cppcheck include dirs: 
+[2.505s] -- Configured cppcheck exclude dirs and/or files: 
+[2.507s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.507s] -- Configured cpplint exclude dirs and/or files: 
+[2.508s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.509s] -- Added test 'lint_cmake' to check CMake code style
+[2.510s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.512s] -- Added test 'uncrustify' to check C / C++ code style
+[2.512s] -- Configured uncrustify additional arguments: 
+[2.512s] -- Added test 'xmllint' to check XML markup files
+[2.514s] -- Configuring done
+[2.537s] -- Generating done
+[2.539s] -- Build files have been written to: /home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos
+[2.549s] Invoked command in '/home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:/home/eid/ws_gazebo/install/serial:/home/eid/ws_gazebo/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/install/nixbot:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/ws_gazebo/install/gazebo_test:/home/eid/ws_gazebo/install/diffdrive_arduino:/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/src/install/serial:/home/eid/ws_gazebo/src/install/rplidar_ros:/home/eid/ws_gazebo/src/install/nixbot:/home/eid/ws_gazebo/src/install/my_first_pkg:/home/eid/ws_gazebo/src/install/diffdrive_arduino:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/src/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/eid/ws_gazebo/src/gazebo_ros2_control/gazebo_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos
+[2.551s] Invoking command in '/home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:/home/eid/ws_gazebo/install/serial:/home/eid/ws_gazebo/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/install/nixbot:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/ws_gazebo/install/gazebo_test:/home/eid/ws_gazebo/install/diffdrive_arduino:/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/src/install/serial:/home/eid/ws_gazebo/src/install/rplidar_ros:/home/eid/ws_gazebo/src/install/nixbot:/home/eid/ws_gazebo/src/install/my_first_pkg:/home/eid/ws_gazebo/src/install/diffdrive_arduino:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/src/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos -- -j8 -l8
+[2.603s] [  8%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[2.604s] [ 16%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[2.605s] [ 25%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[2.609s] [ 41%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[2.609s] [ 41%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[2.609s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[12.636s] [ 58%] [32m[1mLinking CXX executable example_diff_drive[0m
+[12.636s] [ 66%] [32m[1mLinking CXX executable example_position[0m
+[12.691s] [ 75%] [32m[1mLinking CXX executable example_gripper[0m
+[13.186s] [ 83%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[13.203s] [ 91%] [32m[1mLinking CXX executable example_velocity[0m
+[13.274s] [100%] [32m[1mLinking CXX executable example_effort[0m
+[14.041s] [100%] Built target example_effort
+[14.087s] [100%] Built target example_gripper
+[14.091s] [100%] Built target example_velocity
+[14.094s] [100%] Built target example_tricycle_drive
+[14.095s] [100%] Built target example_diff_drive
+[14.101s] [100%] Built target example_position
+[14.113s] Invoked command in '/home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:/home/eid/ws_gazebo/install/serial:/home/eid/ws_gazebo/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/install/nixbot:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/ws_gazebo/install/gazebo_test:/home/eid/ws_gazebo/install/diffdrive_arduino:/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/src/install/serial:/home/eid/ws_gazebo/src/install/rplidar_ros:/home/eid/ws_gazebo/src/install/nixbot:/home/eid/ws_gazebo/src/install/my_first_pkg:/home/eid/ws_gazebo/src/install/diffdrive_arduino:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/src/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos -- -j8 -l8
+[14.161s] Invoking command in '/home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:/home/eid/ws_gazebo/install/serial:/home/eid/ws_gazebo/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/install/nixbot:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/ws_gazebo/install/gazebo_test:/home/eid/ws_gazebo/install/diffdrive_arduino:/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/src/install/serial:/home/eid/ws_gazebo/src/install/rplidar_ros:/home/eid/ws_gazebo/src/install/nixbot:/home/eid/ws_gazebo/src/install/my_first_pkg:/home/eid/ws_gazebo/src/install/diffdrive_arduino:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/src/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos
+[14.169s] -- Install configuration: ""
+[14.169s] -- Execute custom install script
+[14.170s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[14.180s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[14.189s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[14.198s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[14.207s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[14.216s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[14.225s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[14.234s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[14.242s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[14.250s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[14.258s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[14.266s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[14.274s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[14.283s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[14.291s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[14.300s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[14.309s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[14.318s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[14.327s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[14.335s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[14.344s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[14.352s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[14.360s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[14.369s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[14.377s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[14.386s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[14.395s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[14.404s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[14.414s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[14.424s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[14.433s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[14.442s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[14.451s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[14.460s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[14.468s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[14.477s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[14.485s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[14.494s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[14.503s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[14.512s] -- Symlinking: /home/eid/ws_gazebo/src/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[14.523s] Invoked command in '/home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control:/home/eid/ws_gazebo/install/serial:/home/eid/ws_gazebo/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/install/nixbot:/home/eid/ws_gazebo/install/my_first_pkg:/home/eid/ws_gazebo/install/gazebo_test:/home/eid/ws_gazebo/install/diffdrive_arduino:/home/eid/ws_gazebo/src/install/serial_motor_demo_msgs:/home/eid/ws_gazebo/src/install/serial:/home/eid/ws_gazebo/src/install/rplidar_ros:/home/eid/ws_gazebo/src/install/nixbot:/home/eid/ws_gazebo/src/install/my_first_pkg:/home/eid/ws_gazebo/src/install/diffdrive_arduino:/home/eid/ws_gazebo/install/serial_motor_demo:/home/eid/ws_gazebo/src/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/eid/ws_gazebo/src/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/eid/ws_gazebo/src/build/gazebo_ros2_control_demos

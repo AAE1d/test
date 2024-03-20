@@ -1,0 +1,1 @@
+/home/eid/ws_gazebo/src/gazebo_ros2_control/gazebo_ros2_control_demos/launch/gripper_mimic_joint_example.launch.py

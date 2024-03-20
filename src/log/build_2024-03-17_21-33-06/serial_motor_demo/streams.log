@@ -1,0 +1,22 @@
+[0.886s] Invoking command in '/home/eid/ws_gazebo/src/build/serial_motor_demo': PYTHONPATH=/home/eid/ws_gazebo/src/build/serial_motor_demo/prefix_override:/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eid/ws_gazebo/src/build/serial_motor_demo/build --no-deps symlink_data
+[1.115s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.115s]   warnings.warn(
+[1.150s] running develop
+[1.151s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.151s]   warnings.warn(
+[1.335s] running egg_info
+[1.335s] writing serial_motor_demo.egg-info/PKG-INFO
+[1.335s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[1.335s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[1.336s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[1.336s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[1.338s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.339s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[1.340s] running build_ext
+[1.341s] Creating /home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[1.341s] Installing driver script to /home/eid/ws_gazebo/src/install/serial_motor_demo/lib/serial_motor_demo
+[1.342s] Installing gui script to /home/eid/ws_gazebo/src/install/serial_motor_demo/lib/serial_motor_demo
+[1.342s] 
+[1.342s] Installed /home/eid/ws_gazebo/src/build/serial_motor_demo
+[1.342s] running symlink_data
+[1.368s] Invoked command in '/home/eid/ws_gazebo/src/build/serial_motor_demo' returned '0': PYTHONPATH=/home/eid/ws_gazebo/src/build/serial_motor_demo/prefix_override:/home/eid/ws_gazebo/src/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/eid/ws_gazebo/src/build/serial_motor_demo/build --no-deps symlink_data

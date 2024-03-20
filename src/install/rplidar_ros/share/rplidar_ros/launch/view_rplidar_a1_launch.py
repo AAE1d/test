@@ -1,0 +1,1 @@
+/home/eid/ws_gazebo/src/rplidar_ros/launch/view_rplidar_a1_launch.py
